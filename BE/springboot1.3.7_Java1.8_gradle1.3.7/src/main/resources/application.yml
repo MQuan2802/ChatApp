@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: dsp_cms
+      username: user
+      password: password
+server:
+  port: 61562
