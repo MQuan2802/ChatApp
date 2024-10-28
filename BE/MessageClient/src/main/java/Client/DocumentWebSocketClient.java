@@ -61,14 +61,8 @@ public class DocumentWebSocketClient {
 
     public static void main(String[] args) throws IOException, DeploymentException {
         WebSocketContainer container = ContainerProvider.getWebSocketContainer();
-//        try {
             DocumentWebSocketClient client = new DocumentWebSocketClient();
-//            client.sendMessage("from send Message");
             client.sendDocumentMessage(getImageByteBuffer("/Users/quannguyen/Desktop/scheduledReport.pptx"));
-
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
     }
 
     public static ByteBuffer getImageByteBuffer(String imagePath) throws IOException {

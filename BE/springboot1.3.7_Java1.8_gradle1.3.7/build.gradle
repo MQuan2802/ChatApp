@@ -70,8 +70,9 @@ dependencies {
 	compile 'org.projectlombok:lombok:1.16.20'
 	compile 'org.json:json:20210307'
 	compile 'org.springframework.boot:spring-boot-starter-websocket:3.0.5'
-	// https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api
 	compile 'org.java-websocket:Java-WebSocket:1.4.1'
+	compile 'jakarta.mail:jakarta.mail-api:2.1.2'
+	compile 'com.sun.mail:javax.mail:1.6.2'
 
 //	compile 'org.java-websocket:Java-WebSocket:1.5.0'
 //	compile 'javax.websocket:javax.websocket-api:1.1'

@@ -8,3 +8,10 @@ spring:
       password: password
 server:
   port: 61562
+google:
+  mail:
+    smtp:
+      host: smtp.gmail.com
+      port: 465
+      username: ntmquan282@gmail.com
+      password: zzpa cyqo nnon emva
