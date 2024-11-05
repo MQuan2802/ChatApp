@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    name: chat_app
+    url: jdbc:postgresql://localhost:5432/chat_app
+    database: chat_app
+    username: chat_app
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+server:
+  port: 8082
+google:
+  mail:
+    smtp:
+      host: smtp.gmail.com
+      port: 465
+      username: ntmquan282@gmail.com
+      password: zzpa cyqo nnon emva
